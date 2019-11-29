@@ -1,3 +1,4 @@
+alert('');
 // Detects if device is on iOS 
 const isIos = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
