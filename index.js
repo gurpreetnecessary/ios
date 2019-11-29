@@ -1,8 +1,8 @@
-alert('');
+ 
 // Detects if device is on iOS 
 const isIos = () => {
   const userAgent = window.navigator.userAgent.toLowerCase();
-  alert(userAgent);
+ 
   return /iphone|ipad|ipod/.test( userAgent );
 }
 // Detects if device is in standalone mode
